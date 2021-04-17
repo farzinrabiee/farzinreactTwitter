@@ -3,6 +3,15 @@ body{
     direction: rtl;
     /*font-family:"Shabnam" !important; ;*/
     /*font-weight: normal;*/
+
+}
+.editable:empty:before{
+    content: attr(data-placeholder);
+    color: lightgray;
+}
+a{
+    text-decoration: none;
+    color: unset;
 }
 /*@font-face {*/
 /*    font-family: Shabnam;*/
